@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+    font-family: 'inter';
+}
+
+#Logo{
+    margin-left: 75px;
+    margin-top: 50px;
+}
+
+#titulo-menu-superior{
+    margin-left: 180px;
+    margin-top: 50px;
+}
+
+#texto-menu-superior{
+    margin-left: 180px;
+    margin-top: 25px;
+    padding-bottom: 100px;
+}
+
+#menusuperior{
+    background-image: url(imagens/fundo-menusuperior.svg);
+    color: aliceblue;
+}
+
+#menuinformativo{
+    background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns:auto;
+}
+
+.icone{
+    margin-left: 174px;
+    margin-top: 68px;
+    margin-bottom: 73px;
+    padding: 25px;
+}
+
+.textoinformativo{
+    display: flex;
+    align-items: center;
+}
+
+#secaovideo{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#titulovideo{
+    color: #247BA0;
+    margin-top: 80px;
+}
+
+#video{
+    margin: 80px 60px 80px 173px;
+}
+
+#carrossel{
+    background-color: #247BA0;
+    padding: 50px;
+}
+
+#titulo-carrossel{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+#div-cards{
+    margin-top: 25px;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.cards{
+    margin-left: 75px;
+}
+
+#seta-esquerda{
+    display: none;
+}
+
+#Samanta{
+    display: none;
+}
+
+.setas{
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.setas:hover{
+    transform:translateY(-7px);
+    transition-duration: 0.5s;
+}
+
+#formulario{
+    text-align: center;
+}
+
+#titulo-formulario{
+    font-size: 25px;
+    margin: 25px;
+    color: #383838;
+}
+
+input{
+    width: 400px;
+    height: 45px;
+    background-color: #EAECE5;
+    margin: 15px;
+    border: 0px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+button{
+    background-color: #247BA0;
+    width: 250px;
+    height: 40px;
+    border: 0px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+
+}
+
+button:hover{
+    background-color: #3294be;
+    color: #EAECE5;
+    transform: translateY(-7px);
+    transition-duration: 0.6s;
+    box-shadow: 0px 15px 20px #3c6e83a7;
+    
+}
